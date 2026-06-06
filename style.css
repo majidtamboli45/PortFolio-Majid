@@ -1,0 +1,212 @@
+body{
+font-family:Poppins;
+margin:0;
+background:white;
+color:#1f2937;
+}
+
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#2563eb;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+}
+
+.nav-links li{
+margin-left:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#374151;
+font-weight:500;
+}
+
+
+
+/* HERO */
+
+.hero{
+padding:80px 80px;
+background:linear-gradient(120deg,#eef2ff,#f9fafb);
+}
+
+.hero-container{
+display:flex;
+align-items:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.hero-image img{
+width:260px;
+height:320px;
+object-fit:cover;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.hero-text h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero-text p{
+color:#4b5563;
+max-width:500px;
+}
+
+.hero-buttons{
+margin-top:20px;
+}
+
+.btn-primary{
+background:#2563eb;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:6px;
+margin-right:10px;
+}
+
+.btn-outline{
+border:2px solid #2563eb;
+padding:10px 25px;
+color:#2563eb;
+text-decoration:none;
+border-radius:6px;
+}
+
+
+
+/* SKILLS */
+
+.skills-section{
+text-align:center;
+padding:80px 20px;
+}
+
+.skills-container{
+margin-top:30px;
+}
+
+.skill{
+display:inline-block;
+background:#e5edff;
+color:#2563eb;
+padding:10px 18px;
+border-radius:20px;
+margin:10px;
+font-weight:500;
+}
+
+
+
+/* PROJECTS */
+
+.projects-section{
+text-align:center;
+padding:80px 20px;
+background:#f9fafb;
+}
+
+.project-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.project-card{
+background:white;
+padding:25px;
+width:280px;
+border-radius:10px;
+text-decoration:none;
+color:#111827;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+
+/* CONTACT */
+
+.contact-section{
+text-align:center;
+padding:80px 20px;
+}
+
+.contact-links{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.contact-btn{
+background:#2563eb;
+color:white;
+padding:12px 25px;
+border-radius:6px;
+text-decoration:none;
+font-weight:500;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-btn:hover{
+background:#1d4ed8;
+transform:translateY(-4px);
+}
+
+
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:#f3f4f6;
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero-container{
+flex-direction:column;
+text-align:center;
+}
+
+.navbar{
+padding:20px;
+}
+
+}
